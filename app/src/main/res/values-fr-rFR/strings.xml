@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">K-Estates</string>
+    <string name="logo_name">Get Comfortable</string>
+    <string name="slogan_name">Nous vous fournissons exactement ce dont vous avez besoin</string>
+    <string name="powered_by">Powered by KAPLAN ENGINEERING</string>
+
+    <!--  Strings for On Boarding Screen -->
+
+    <!-- Titles -->
+    <string name="first_slide_title">Trouver du confort</string>
+    <string name="second_slide_title">Contacter le Propriétaire</string>
+    <string name="third_slide_title">Louez votre appartement</string>
+    <string name="fourth_slide_title">Profitez de votre confort</string>
+
+    <!-- Descriptions -->
+    <string name="first_slide_desc">Nous vous proposons votre hébergement qui correspond à votre goût, nous vous laissons également publier vos appartements et parcelles à louer et à vendre. Allez-y et choisissez ce qui vous convient!</string>
+    <string name="second_slide_desc">Nous fournissons la géolocalisation et le numéro de téléphone du propriétaire de l\'emplacement pour une communication facile. Vous pouvez effectuer cela en utilisant l\'appel direct ou notre application de messagerie.</string>
+    <string name="third_slide_desc">Si vous avez une maison, un appartement, un magasin, un terrain, etc. que vous souhaitez louer ou vendre, n\'hésitez pas à ajouter. et attendez-vous à plusieurs appels et messages d\'autres clients prêts.</string>
+    <string name="fourth_slide_desc">Nous rendons la location, la vente et l\'achat très faciles et rapides. Nous vous épargnons le stress. </string>
+
+    <!-- Buttons -->
+    <string name="skip_btn">Sauter</string>
+    <string name="next_btn">Prochain</string>
+    <string name="let_get_started">Commençons</string>
+
+    <!-- Strings for Dashboard -->
+
+    <!-- Categories -->
+    <string name="houses">Maisons</string>
+    <string name="hotels">Hôtels</string>
+    <string name="occation_venue">Lieu de l\'occasion</string>
+    <string name="view_all">Voir tout</string>
+
+    <!-- Titles and Description -->
+    <string name="featured_locations">Tous les Loctions en vedette</string>
+    <string name="featured_locations_description">Tous les lieux présentés et les plus demandés en ville</string>
+    <string name="most_view_location">Le plus regardé</string>
+    <string name="categories">Catégories</string>
+    <string name="search_text">Chercher… </string>
+
+    <!-- Navigation strings -->
+
+    <!-- first group-->
+    <string name="home">Page D\'Accueil</string>
+    <string name="category">Toutes Catégories</string>
+    <string name="search">Chercher</string>
+
+
+    <!-- Profile-->
+    <string name="login">S\'identifier</string>
+    <string name="favourites">Mes préférés</string>
+    <string name="add_location">Ajouter une géolocalisation (sur la carte)</string>
+    <string name="logout">Se déconnecter</string>
+
+    <!-- Share nav-->
+    <string name="share">Partager</string>
+    <string name="rate_us">Évaluez nous</string>
+
+    <!-- All Categories Strings-->
+    <string name="rent_house">Maisons à louer</string>
+    <string name="expand_all">Voir tout</string>
+
+    <!-- Retailer Panel strings -->
+
+    <!-- general strings -->
+    <string name="sign_up">S\'inscrire</string>
+    <string name="retailer_heading">Ajoutez votre appartement, hôtel, terrain à vendre ou à louer</string>
+    <string name="retailer_tag_line">Nous vous aiderons à trouver un client le plus rapidement possible</string>
+    <string name="create_account">Créer Un\nCompte</string>
+    <string name="create_account2">Créer Un Compte</string>
+    <string name="how_we_work">Comment nous travaillons</string>
+    <string name="remember_me">Souviens-toi de moi</string>
+    <string name="forgot_password">Mot de passe oublié</string>
+
+    <!-- Login screen strings -->
+    <string name="enter_username">Numéro de téléphone ou nom d\'utilisateur</string>
+    <string name="enter_password">Mot de passe</string>
+
+    <!-- Create Account screen strings -->
+    <string name="enter_full_name">Nom complet</string>
+    <string name="enter_username2">Nom d\'utilisateur</string>
+    <string name="enter_email">Email</string>
+    <string name="enter_phone_number">Numéro de téléphone</string>
+    <string name="choose_region">Choisissez la région de résidence</string>
+    <string name="choose_gender">Choisissez le sexe</string>
+    <string name="male">l\'homme</string>
+    <string name="female">Femme</string>
+    <string name="select_age">Sélectionnez votre âge</string>
+
+    <!-- OTP Screen strings -->
+    <string name="otp_code_text">Code</string>
+    <string name="otp_verification_text">Vérification</string>
+    <string name="otp_description_text">Entrez le mot de passe unique qui vous a été envoyé</string>
+    <string name="verify_code">Vérifier le code</string>
+
+    <!-- Forgot Screen strings -->
+    <string name="forgot_password_details">Fournissez l\'adresse e-mail de votre compte pour générer le processus de vérification</string>
+    <string name="make_selection">Faire une sélection</string>
+    <string name="make_selection_detail">Sélectionnez les coordonnées que vous souhaitez utiliser pour réinitialiser votre mot de passe</string>
+    <string name="via_sms">Par sms</string>
+    <string name="new_password">Nouveau mot de passe</string>
+    <string name="confirm_password">Confirmez le mot de passe</string>
+    <string name="new_password_detail">Votre identité a été vérifiée! Définissez votre nouveau mot de passe</string>
+    <string name="password_updated">Mot de passe mis à jour avec succès</string>
+    <string name="password_update_success_message">Mot de passe mis à jour avec succès</string>
+
+
+    <!--Others -->
+    <string name="top_picks">Meilleurs choix</string>
+    <string name="ok">OK</string>
+    <string name="update">Réactualiser</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Bonjour fragment vierge</string>
+    <string name="choose_your_categories">Quelle catégorie souhaitez-vous publier</string>
+
+    <string name="house_apartment">Maison ou Appartement</string>
+    <string name="region">Région</string>
+    <string name="division">Département</string>
+    <string name="sub_division">Arrondissement</string>
+    <string name="enter_quater_name">Entrez le nom du quartier</string>
+    <string name="number_of_rooms">Nombre de chambres</string>
+    <string name="enter_number_of_rooms_here">Entrez le nombre de chambres ici</string>
+    <string name="number_of_parlous">Nombre de salon</string>
+    <string name="if_none_write_0">Si aucun, écrivez "AUCUN"</string>
+    <string name="internal_toilet"> Nombre de toilettes internes</string>
+    <string name="external_toilet">Toilette externe</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="furnished">Appartement meublé</string>
+    <string name="price">Prix</string>
+    <string name="price_monthly">Prix (mensuel en FCFA)</string>
+    <string name="enter_amount_here">Entrez le montant ici</string>
+    <string name="price_negotiable">Prix ​​négociable</string>
+    <string name="upload_images">Importer des images</string>
+    <string name="sample_image_name">Nom de l\'image</string>
+    <string name="filename_type">Nom de fichier.type</string>
+    <string name="apartment_complex_name">Nom de l\'appartement (complexe)</string>
+    <string name="fence_yes_no">Clôturé</string>
+    <string name="apartment_owner">Propriétaire d\'appartement</string>
+    <string name="agent">Agent</string>
+    <string name="posted_by">Posté par</string>
+    <string name="phone_number">Numéro de téléphone</string>
+    <string name="advance_payments_number_of_months">Garantie de paiement à l\'avance (nombre de mois)</string>
+    <string name="caution">Mise en garde</string>
+
+    //geo location
+    <string name="do_you_want_to_add_location">Souhaitez-vous ajouter la géolocalisation de votre appartement</string>
+    <string name="note_geolocation"><b><i>Note:</i></b> Vous ne devez ajouter cet emplacement que si vous vous trouvez actuellement à l\'emplacement de l\'appartement</string>
+    <string name="add_geolocation">AJOUTER UNE GÉOLOCALISATION</string>
+    <string name="title_activity_maps">La Localisation</string>
+
+    //view apartment strings
+    <string name="rooms">Nombre de chambres</string>
+    <string name="parlour">Nombre de salon</string>
+    <string name="int_toilet">Nombre de toilettes internes</string>
+    <string name="ext_toilet">Toilette externe</string>
+    <string name="furnished_house">Appartement meublé</string>
+    <string name="price_house">Prix (mensuel)</string>
+    <string name="negotiate_price">Prix négociable</string>
+    <string name="caution_house">Mise en garde(Montant)</string>
+    <string name="advance_payment">Garantie de paiement à l\'avance(nombre de mois)</string>
+    <string name="apartment_name">Nom du bâtiment</string>
+    <string name="fenced_house">Cour clôturée</string>
+    <string name="posted_by1">Posté par</string>
+    <string name="listing_date">Date postée</string>
+    <string name="title_activity_maps_view">la localisation</string>
+    <string name="all_categories">Toutes Catégories</string>
+    <string name="add_property">Ajouter une propriété</string>
+    <string name="my_properties">Mes Propriétés</string>
+    <string name="about_us">À propos de nous</string>
+    <string name="my_props">Mes Propriétés</string>
+    <string name="still_to_come">Veuillez contacter notre équipe de développement pour ajouter votre propriété dans cette catégorie en utilisant l\'email <b><i>scouttech237@gmail.com</i></b>
+</string>
+    <string name="category_low">Catégorie</string>
+    <string name="business_location">Appartement pour le business</string>
+    <string name="commercial_apartment">Appartement pour le business</string>
+    <string name="houses_and_apartment">Maisons et Appartement</string>
+    <string name="business_places">Appartement pour le business</string>
+    <string name="guest_house">Chambres d\'hôtes</string>
+    <string name="plots">Parcelles de terrain</string>
+    <string name="post_apartment_description">Choisissez ceci si vous souhaitez louer ou vendre votre appartement, maison ou chambre</string>
+    <string name="post_guest_house_description">Choisissez ceci si vous souhaitez louer votre maison d\'hôtes, maison de plage ou maison de camp</string>
+    <string name="post_business_place_description">Choisissez ceci si vous souhaitez louer ou votre appartement pour le business</string>
+    <string name="post_plot_description">Choisissez ceci si vous souhaitez louer ou vendre votre terrain</string>
+    <string name="location">La Localisation</string>
+    <string name="post_information">Informations à Publier</string>
+    <string name="post_type">Type de poste</string>
+    <string name="sell">Vendre</string>
+    <string name="rent">Louer</string>
+    <string name="additional_information_optional">Informations supplémentaires(Optionnel)</string>
+    <string name="post_title">Titre(ne devrait pas être trop long)</string>
+    <string name="enter_title_of_your_post_e_g_1_room_toilet_kitchen_for_rent">Entrez le titre de votre message (par exemple: 1 chambre, toilettes,et cuisine à louer)</string>
+    <string name="delete">Supprimer</string>
+    <string name="Map">La Localisation</string>
+    <string name="call">Appel</string>
+    <string name="search_hint">recherche par région, par exemple Centre</string>
+    <string name="dimension_area">Dimension/Surface</string>
+    <string name="e_g_500m2_or_20m_by_30m">par exemple 500m2 ou 20m par 30m</string>
+    <string name="price1">Prix(en FCFA)</string>
+    <string name="land_owner">Propriétaire du terrain</string>
+    <string name="title_activity_maps_plot">La Localisation</string>
+    <string name="go_there_now">Allez-y maintenant</string>
+
+</resources>

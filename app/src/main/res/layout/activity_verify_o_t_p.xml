@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".LocationOwner.Authentication.VerifyOTP"
+android:background="@color/white">
+
+<ImageView
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:layout_marginTop="15dp"
+    android:src="@drawable/general_close_icon"
+    android:padding="5dp"
+    android:onClick="goToHomeFromOTP"
+    app:tint="@color/black"
+    tools:ignore="ContentDescription" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_centerVertical="true"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/otp_code_text"
+        android:textSize="100sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/muli_extrabold_italic"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:includeFontPadding="false"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/otp_verification_text"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/muli_extrabold_italic"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:includeFontPadding="false"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/otp_description_text"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/muli_bold_italic"
+        android:textAlignment="center"
+        android:includeFontPadding="false"
+        android:layout_gravity="center"/>
+
+    <com.chaos.view.PinView
+        android:id="@+id/pin_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:itemCount="6"
+        android:width="50dp"
+        android:height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:lineColor="@color/colorAccent"
+        android:itemBackground="@color/lightWhite"
+        style="@style/PinWidget.PinView"
+        android:inputType="number"
+        android:cursorVisible="true"
+        app:cursorColor="@color/black"
+        app:hideLineWhenFilled="true"
+        app:itemRadius="5dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_200"
+        android:text="@string/verify_code"
+        android:onClick="callNextScreenFromOTP"
+        android:textAllCaps="true"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:transitionName="transition_opt_screen"/>
+
+    <Button
+        android:id="@+id/resend_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send_code_again"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:backgroundTint="@color/white"
+        android:onClick="sendTextAgain"
+        android:textAllCaps="true"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:transitionName="transition_opt_screen"/>
+
+
+</LinearLayout>
+
+</RelativeLayout>

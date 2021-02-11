@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".LocationOwner.CreateAccomodation.GeoLocation01">
+
+<TextView
+    android:id="@+id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="150dp"
+    android:text="@string/do_you_want_to_add_location"
+    android:gravity="center"
+    android:textSize="30sp"
+    android:textColor="@color/black"/>
+
+<TextView
+    android:id="@+id/text11"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/text1"
+    android:layout_marginTop="30dp"
+    android:text="@string/note_geolocation"
+    android:gravity="center"
+    android:textSize="20sp"
+    android:textColor="@color/black"/>
+
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/text11"
+    android:layout_marginTop="100dp"
+    android:backgroundTint="@color/card1"
+    android:textColor="@color/black"
+    android:onClick="geoLocation"
+    android:text="@string/add_location"/>
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/skip_btn"
+    android:backgroundTint="@color/card1"
+    android:layout_marginTop="20dp"
+    android:onClick="goToNextPage"
+    android:textColor="@color/black"
+    android:layout_below="@id/button1"/>
+
+</RelativeLayout>

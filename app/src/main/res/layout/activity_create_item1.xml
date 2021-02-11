@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/white"
+android:orientation="vertical"
+tools:context=".LocationOwner.CreateAccomodation.CreateItem1">
+
+
+<ImageView
+    android:id="@+id/back_pressed"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:onClick="goBack"
+    android:src="@drawable/general_back_icon"
+    app:tint="@color/black"
+    tools:ignore="ContentDescription" />
+
+<TextView
+    android:id="@+id/text_category"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/choose_your_categories"
+    android:textSize="30sp"
+    android:padding="10dp"
+    android:fontFamily="@font/architects_daughter"
+    android:textColor="@color/black" />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/create_house_apartment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_1"
+            android:padding="5dp"
+            android:onClick="postApartment"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/post_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo"
+                android:padding="3dp"
+                android:text="@string/house_apartment"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/post_title"
+                android:textColor="@color/black"
+                android:text="@string/post_apartment_description"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/create_guest_house"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_1"
+            android:padding="5dp"
+            android:onClick="postGuestHouse"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/post_title_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guest_house"
+                android:fontFamily="@font/baloo"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:padding="3dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/post_title_1"
+                android:textColor="@color/black"
+                android:text="@string/post_guest_house_description"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/create_business_place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_1"
+            android:padding="5dp"
+            android:onClick="postBusinessPlace"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/post_title_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/business_places"
+                android:fontFamily="@font/baloo"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:padding="3dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/post_title_2"
+                android:textColor="@color/black"
+                android:text="@string/post_business_place_description"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/create_plot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_1"
+            android:onClick="postPlot"
+            android:padding="5dp"
+
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/post_title_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/plots"
+                android:fontFamily="@font/baloo"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:padding="3dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/post_title_3"
+                android:textColor="@color/black"
+                android:text="@string/post_plot_description"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

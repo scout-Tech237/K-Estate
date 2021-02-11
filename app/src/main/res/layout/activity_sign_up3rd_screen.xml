@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".LocationOwner.Authentication.SignUp3rdScreen"
+android:background="@color/colorPrimary"
+android:padding="10dp">
+
+<ImageView
+    android:id="@+id/signup_back_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:src="@drawable/general_back_icon"
+    android:transitionName="transition_back_arrow_btn"
+    app:tint="@color/black"
+    tools:ignore="ContentDescription" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/signup_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_account2"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:fontFamily="@font/muli_bold_italic"
+        android:textAllCaps="true"
+        android:layout_marginTop="30dp"
+        android:transitionName="transition_title_text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/country_code_picker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:ccp_autoDetectCountry="true"
+            app:ccp_showFlag="true"
+            app:ccp_showNameCode="true"
+            app:ccp_showFullName="true"
+            android:padding="5dp"
+            android:background="@drawable/black_border"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/signup_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_phone_number"
+            app:startIconDrawable="@drawable/field_phone_number_icon"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:startIconTint="@color/black"
+            app:hintTextColor="@color/black"
+            android:textColorHint="@color/black"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/black"
+            app:boxStrokeWidthFocused="2dp"
+            app:boxStrokeColor="@color/black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/signup_next_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/next_btn"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="@color/black"
+        android:onClick="callVerifyOTPScreen"
+        android:layout_marginTop="25dp"
+        android:elevation="5dp"
+        android:transitionName="transition_opt_screen"/>
+
+</LinearLayout>
+
+
+
+</RelativeLayout>

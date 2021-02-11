@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/home"
+            android:icon="@drawable/house_icon"/>
+
+        <item
+            android:id="@+id/nav_all_categories"
+            android:title="@string/all_categories"
+            android:icon="@drawable/all_category"/>
+
+        <item
+            android:id="@+id/nav_add_properties"
+            android:title="@string/add_property"
+            android:icon="@drawable/add_a_location"/>
+
+    </group>
+
+    <item android:title="Profile">
+
+        <menu>
+
+            <group android:checkableBehavior="none">
+
+                <item
+                    android:id="@+id/nav_login"
+                    android:title="@string/login"
+                    android:icon="@drawable/login_icon"/>
+
+                <item
+                    android:id="@+id/nav_my_properties"
+                    android:title="@string/my_properties"
+                    android:icon="@drawable/ic_baseline_location_city_24"/>
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="@string/logout"
+                    android:icon="@drawable/logout_icon"/>
+
+            </group>
+
+        </menu>
+
+    </item>
+
+    <item android:title="Info">
+
+        <menu>
+
+            <group android:checkableBehavior="none">
+
+                <item
+                    android:id="@+id/nav_about_us"
+                    android:title="@string/about_us"
+                    android:icon="@drawable/ic_baseline_info_24"/>
+
+                <item
+                    android:id="@+id/nav_share"
+                    android:title="@string/share"
+                    android:icon="@drawable/share_icon"/>
+
+                <item
+                    android:id="@+id/nav_rate_us"
+                    android:title="@string/rate_us"
+                    android:icon="@drawable/rate_icon"/>
+
+            </group>
+
+        </menu>
+
+    </item>
+
+</menu>

@@ -1,0 +1,204 @@
+<resources>
+    <string name="app_name">K-Estates</string>
+    <string name="logo_name">Get Comfortable</string>
+    <string name="slogan_name">We get you just what you need</string>
+    <string name="powered_by">Powered by KAPLAN REAL ESTATE</string>
+
+    <!--  Strings for On Boarding Screen -->
+
+    <!-- Titles -->
+    <string name="first_slide_title">Find Comfort</string>
+    <string name="second_slide_title">Contact Owner</string>
+    <string name="third_slide_title">Rent your apartment</string>
+    <string name="fourth_slide_title">Enjoy Your Comfort</string>
+
+    <!-- Descriptions -->
+    <string name="first_slide_desc">We offer your accommodation that suits your taste, we also let you post your apartments and plots for rent and for sale. Go ahead and choose what suits you!</string>
+    <string name="second_slide_desc">We provide the geolocation and phone number of the location owner for easy communication. You can perform that using direct call or our messaging app.</string>
+    <string name="third_slide_desc">If you have a house, apartment, store, plot etc you wish to rent or sell feel free to add. and expect multiple calls and messages from other ready customers.</string>
+    <string name="fourth_slide_desc">We make renting, selling and buying very easy and faster. We save you the stress. </string>
+
+    <!-- Buttons -->
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Lets Get Started</string>
+
+    <!-- Strings for Dashboard -->
+
+    <!-- Categories -->
+    <string name="houses">Houses</string>
+    <string name="hotels">Hotels</string>
+    <string name="occation_venue">Occasion Venue</string>
+    <string name="view_all">View ALL</string>
+
+    <!-- Titles and Description -->
+    <string name="featured_locations">All Featured Loctions</string>
+    <string name="featured_locations_description">All the locations that are featured and have the top demand in town</string>
+    <string name="most_view_location">Most Viewed</string>
+    <string name="categories">Categories</string>
+    <string name="search_text">Search… </string>
+
+    <!-- Navigation strings -->
+
+    <!-- first group-->
+    <string name="home">Home</string>
+    <string name="category">All Categories</string>
+    <string name="search">Search</string>
+
+
+    <!-- Profile-->
+    <string name="login">Login</string>
+    <string name="favourites">My favourites</string>
+    <string name="add_location">Add GeoLocation (On Map)</string>
+    <string name="logout">Logout</string>
+
+    <!-- Share nav-->
+    <string name="share">Share</string>
+    <string name="rate_us">Rate Us</string>
+
+    <!-- All Categories Strings-->
+    <string name="rent_house">Houses On Rent</string>
+    <string name="expand_all">View All</string>
+
+    <!-- Retailer Panel strings -->
+
+    <!-- general strings -->
+    <string name="sign_up">Sign Up</string>
+    <string name="retailer_heading">Add your apartment, hotel, plot for sale or rent</string>
+    <string name="retailer_tag_line">We will help you get a client as fast as possible</string>
+    <string name="create_account">Create\nAccount</string>
+    <string name="create_account2">Create Account</string>
+    <string name="how_we_work">How we work</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forgot_password">Forgot Password</string>
+
+    <!-- Login screen strings -->
+    <string name="enter_username">Phone Number Or Username</string>
+    <string name="enter_password">Password</string>
+
+    <!-- Create Account screen strings -->
+    <string name="enter_full_name">Full Name</string>
+    <string name="enter_username2">Username</string>
+    <string name="enter_email">Email</string>
+    <string name="enter_phone_number">Phone Number</string>
+    <string name="choose_region">Choose Region Of Residence</string>
+    <string name="choose_gender">Choose Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="select_age">Select Your Age</string>
+
+    <!-- OTP Screen strings -->
+    <string name="otp_code_text">Code</string>
+    <string name="otp_verification_text">Verification</string>
+    <string name="otp_description_text">Enter one time password sent to you </string>
+    <string name="verify_code">Verify Code</string>
+
+    <!-- Forgot Screen strings -->
+    <string name="forgot_password_details">Provide your account email to generate the verification process</string>
+    <string name="make_selection">Make Selection</string>
+    <string name="make_selection_detail">Select which contact detail you wish to use to reset your password</string>
+    <string name="via_sms">Via sms</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="new_password_detail">Your Identity Has Been Verified! Set Your New Password</string>
+    <string name="password_updated">Password Updated</string>
+    <string name="password_update_success_message">Your Password Has Been Updated!</string>
+
+
+    <!--Others -->
+    <string name="top_picks">Top Picks</string>
+    <string name="ok">OK</string>
+    <string name="update">Update</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="choose_your_categories">Which Category Do You Wish To Post</string>
+
+    <string name="house_apartment">House or Apartment</string>
+    <string name="region">Region</string>
+    <string name="division">Division</string>
+    <string name="sub_division">Sub Division</string>
+    <string name="enter_quater_name">Enter quater name</string>
+    <string name="number_of_rooms">Number of rooms</string>
+    <string name="enter_number_of_rooms_here">Enter number of rooms here</string>
+    <string name="number_of_parlous">Number of Parlour</string>
+    <string name="if_none_write_0">If none write "NONE" </string>
+    <string name="internal_toilet"> Number of Internal Toilet</string>
+    <string name="external_toilet">External Toilet</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="furnished">Furnished</string>
+    <string name="price">Price</string>
+    <string name="price_monthly">Price(Monthly in FCFA)</string>
+    <string name="enter_amount_here">Enter amount here</string>
+    <string name="price_negotiable">Price Negotiable</string>
+    <string name="upload_images">Upload Images</string>
+    <string name="sample_image_name">Image name</string>
+    <string name="filename_type">Filename.type</string>
+    <string name="apartment_complex_name">Apartment(Complex) name</string>
+    <string name="fence_yes_no">Fenced</string>
+    <string name="apartment_owner">Apartment Owner</string>
+    <string name="agent">Agent</string>
+    <string name="posted_by">Posted By</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="advance_payments_number_of_months">Advance Payments(number of months)</string>
+    <string name="caution">Caution</string>
+
+    //geo location
+    <string name="do_you_want_to_add_location">Do You Wish To Add The location of your Apartment</string>
+    <string name="note_geolocation"><b><i>Note:</i></b> You should add this location only if you are currently standing at the location of the Apartment</string>
+    <string name="add_geolocation">ADD GEOLOCATION</string>
+    <string name="title_activity_maps">Map</string>
+
+    //view apartment strings
+    <string name="rooms">Number of rooms</string>
+    <string name="parlour">Number of Living Rooms</string>
+    <string name="int_toilet">Number of Internal Toilets</string>
+    <string name="ext_toilet">External Toilet</string>
+    <string name="furnished_house">Furnished</string>
+    <string name="price_house">Price(Monthly)</string>
+    <string name="negotiate_price">Price negotiable</string>
+    <string name="caution_house">Caution(Amount)</string>
+    <string name="advance_payment">Advance Payment</string>
+    <string name="apartment_name">Building name</string>
+    <string name="fenced_house">Fenced</string>
+    <string name="posted_by1">Posted By</string>
+    <string name="listing_date">Date posted</string>
+    <string name="title_activity_maps_view">Map</string>
+    <string name="all_categories">All Categories</string>
+    <string name="add_property">Add Property</string>
+    <string name="my_properties">My Properties</string>
+    <string name="about_us">About Us</string>
+    <string name="my_props">My Properties</string>
+    <string name="still_to_come">Please Contact our development team to add your property in this category using the email <b><i>scouttech237@gmail.com</i></b>
+</string>
+    <string name="category_low">Category</string>
+    <string name="business_location">Business Location</string>
+    <string name="commercial_apartment">Commercial Apartment</string>
+    <string name="houses_and_apartment">Houses and Apartment</string>
+    <string name="business_places">Business Places</string>
+    <string name="guest_house">Guest Houses</string>
+    <string name="plots">Plots</string>
+    <string name="post_apartment_description">Choose this if you wish to rent or sell your Apartment, House or Room</string>
+    <string name="post_guest_house_description">Choose this if you wish to rent your Guest House, Beach house, or Camp House</string>
+    <string name="post_business_place_description">Choose this if you wish to rent or your Apartment, House or Room for business purposes</string>
+    <string name="post_plot_description">Choose this if you wish to rent or sell your piece of Land(Plots)</string>
+    <string name="location">Location</string>
+    <string name="post_information">Post Information</string>
+    <string name="post_type">Post Type</string>
+    <string name="sell">Sale</string>
+    <string name="rent">Rent</string>
+    <string name="additional_information_optional">Additional Information(Optional)</string>
+    <string name="post_title">Post Title(Should not be too long)</string>
+    <string name="enter_title_of_your_post_e_g_1_room_toilet_kitchen_for_rent">Enter title of your post (e.g 1 Room, toilet, kitchen for rent)</string>
+    <string name="delete">Delete</string>
+    <string name="Map">Map</string>
+    <string name="call">Call</string>
+    <string name="search_hint">search by region e.g Centre</string>
+    <string name="dimension_area">Dimension/Area</string>
+    <string name="e_g_500m2_or_20m_by_30m">e.g 500m2 or 20m by 30m</string>
+    <string name="price1">Price(in FCFA)</string>
+    <string name="land_owner">Land Owner</string>
+    <string name="title_activity_maps_plot">Map</string>
+    <string name="go_there_now">Go there Now</string>
+    <string name="splash_screen_image">Splash Screen Image</string>
+    <string name="send_code_again">Send Code Again</string>
+</resources>
